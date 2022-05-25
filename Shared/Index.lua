@@ -13,7 +13,7 @@ local function loadPackages()
     local fExecutionTime = os.clock()
 
     for _, sPackage in ipairs( PackagesList ) do
-        if not File.Exists( "Packages/" .. sPackage ) then
+        if Server and not File.Exists( "Packages/" .. sPackage ) then
             Package.Warn( "\t- \"" .. sPackage .. "\" not found!" )
             goto continue
         end
