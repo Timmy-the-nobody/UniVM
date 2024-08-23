@@ -1,5 +1,7 @@
 # univm
 
+/!\ This package is now deprecated because of changes made in the game! This is why it's archived, and you probably shouldn't use it /!\
+
 Simple package to load all the packages you want in the same lua VM.
 Can be usefull to share globals for exemple.
 
